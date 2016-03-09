@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="org.felipedan.cenouraapp"
+        version="1.0.0">
+
+    <icon src="imagens/icon.png" />
+
+    <gap:splash src="imagens/splash.png" />
+
+    <name>
+        Só de Cenoura
+    </name>
+
+    <description>
+        Cardápio do restaurante Só de Cenoura.
+    </description>
+
+    <author href="http://felipedandev.com" email="contato@felipedandev">
+        Sérgio Lopes
+    </author>
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none" />
+
+    <gap:platform name="android" />
+
+</widget>
